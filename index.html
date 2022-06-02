@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Streaming</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+    <link rel="manifest" href="./favicon/site.webmanifest">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <header>
+        <!--================ PROGRESS BAR ================-->
+        <div id="progress">
+            <span id="progress-value"></span>
+        </div>
+        <!--================ NAV ================-->
+      <div class="wrapper site-header__wrapper">
+        <div class="nav_logo site-header__start">
+            <a href="#home">
+                <img src="./asset/logo.png" class="logo" alt="logo">
+            </a>
+        
+        </div>
+        <div class="site-header__middle" id="home">
+          <nav class="nav">
+            <button class="nav__toggle" aria-expanded="false" type="button">
+              <i class="fa-solid fa-bars"></i>
+            </button>
+            <ul class="nav__wrapper">
+              <li class="nav__item"><a href="#" class="nav_link home-active">Accueil</a></li>
+              <li class="nav__item"><a href="#" class="nav_link">Genre</a></li>
+              <li class="nav__item"><a href="#latest" class="nav_link">Films</a></li>
+              <li class="nav__item"><a href="#latest" class="nav_link">Séries</a></li>
+              <li class="nav__item"><a href="#" class="nav_link">Contacts</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="site-header__end">
+          <!--================ SEARCHBOX ================-->
+          <form action="" class="search_box">
+            <input type="text" name="search" placeholder="Cherchez des films/séries" class="search_input" required/>
+            <button type="submit">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+        </form>
+        </div>
+        </div>
+    </div>
+      
+    </header>
+    <main>
+        <!--================ SLIDER ================-->
+        <section id="main-slider">
+
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <!-- Slider 1 -->
+                    <div class="swiper-slide">
+                        
+                        <div class="main_slider_box">
+
+                            <a href="./html/deadpool.html" class="main_slider_overlay">
+                                <i class="fa-solid fa-play"></i>
+                            </a>
+            
+                            <div class="main_slider_img">
+                                <img src="./asset/p-1.jpg" alt="Poster">
+                            </div>
+            
+                            <div class="main_slider_text">
+                                <span class="quality">Full HD</span>
+                                <div class="bottom_text">
+                                    <div class="movie_name">
+                                        <span>2018</span>
+                                        <strong>INSIDIOUS: THE LAST KEY</strong>
+                                    </div>
+                                    <div class="category_rating">
+                                        <div class="category">
+                                            <a href="#">Horreur</a>,<a href="#">Mistère</a>,<a href="#">Thriller</a>
+                                        </div>
+                                        <div class="rating">
+                                            5.7 <img src="./asset/IMDb-icon.png" alt="imdb">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Slider 2 -->
+                    <div class="swiper-slide">
+                        
+                        <div class="main_slider_box">
+
+                            <a href="./html/deadpool.html" class="main_slider_overlay">
+                                <i class="fa-solid fa-play"></i>
+                            </a>
+            
+                            <div class="main_slider_img">
+                                <img src="./asset/p-2.jpg" alt="Poster">
+                            </div>
+            
+                            <div class="main_slider_text">
+                                <span class="quality">Full HD</span>
+                                <div class="bottom_text">
+                                    <div class="movie_name">
+                                        <span>2017</span>
+                                        <strong>PIRATES OF THE CARIBBEAN: SALAZAR'S REVENGE</strong>
+                                    </div>
+                                    <div class="category_rating">
+                                        <div class="category">
+                                            <a href="#">Action</a>,<a href="#">Aventure</a>,<a href="#">Fantastique</a>
+                                        </div>
+                                        <div class="rating">
+                                            6.5 <img src="./asset/IMDb-icon.png" alt="imdb">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Slider 3 -->
+                    <div class="swiper-slide">
+                        
+                        <div class="main_slider_box">
+
+                            <a href="./html/deadpool.html" class="main_slider_overlay">
+                                <i class="fa-solid fa-play"></i>
+                            </a>
+            
+                            <div class="main_slider_img">
+                                <img src="./asset/p-3.jpg" alt="Poster">
+                            </div>
+            
+                            <div class="main_slider_text">
+                                <span class="quality">Full HD</span>
+                                <div class="bottom_text">
+                                    <div class="movie_name">
+                                        <span>2019</span>
+                                        <strong>ONE PIECE: STAMPEDE</strong>
+                                    </div>
+                                    <div class="category_rating">
+                                        <div class="category">
+                                            <a href="#">Animation</a>,<a href="#">Action</a>,<a href="#">Aventure</a>
+                                        </div>
+                                        <div class="rating">
+                                            7.5 <img src="./asset/IMDb-icon.png" alt="imdb">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Slider 4 -->
+                    <div class="swiper-slide">
+                        
+                        <div class="main_slider_box">
+
+                            <a href="./html/deadpool.html" class="main_slider_overlay">
+                                <i class="fa-solid fa-play"></i>
+                            </a>
+            
+                            <div class="main_slider_img">
+                                <img src="./asset/p-4.jpg" alt="Poster">
+                            </div>
+                            
+                            <div class="main_slider_text">
+                                <span class="quality">Full HD</span>
+                                <div class="bottom_text">
+                                    <div class="movie_name">
+                                        <span>2021</span>
+                                        <strong>VENOM: LET THERE BE CARNAGE</strong>
+                                    </div>
+                                    <div class="category_rating">
+                                        <div class="category">
+                                            <a href="#">Action</a>,<a href="#">Aventure</a>,<a href="#">Sci-Fi</a>
+                                        </div>
+                                        <div class="rating">
+                                            6.0 <img src="./asset/IMDb-icon.png" alt="imdb">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Slider 5 -->
+                    <div class="swiper-slide">
+                        
+                        <div class="main_slider_box">
+
+                            <a href="./html/deadpool.html" class="main_slider_overlay">
+                                <i class="fa-solid fa-play"></i>
+                            </a>
+            
+                            <div class="main_slider_img">
+                                <img src="./asset/p-5.jpg" alt="Poster">
+                            </div>
+            
+                            <div class="main_slider_text">
+                                <span class="quality">Full HD</span>
+                                <div class="bottom_text">
+                                    <div class="movie_name">
+                                        <span>2016</span>
+                                        <strong>DEADPOOL</strong>
+                                    </div>
+                                    <div class="category_rating">
+                                        <div class="category">
+                                            <a href="#">Action</a>,<a href="#">Aventure</a>,<a href="#">Comédie</a>
+                                        </div>
+                                        <div class="rating">
+                                            8.0 <img src="./asset/IMDb-icon.png" alt="imdb">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Slider 6 -->
+                    <div class="swiper-slide">
+                        
+                        <div class="main_slider_box">
+
+                            <a href="./html/deadpool.html" class="main_slider_overlay">
+                                <i class="fa-solid fa-play"></i>
+                            </a>
+            
+                            <div class="main_slider_img">
+                                <img src="./asset/p-6.jpg" alt="Poster">
+                            </div>
+            
+                            <div class="main_slider_text">
+                                <span class="quality">Full HD</span>
+                                <div class="bottom_text">
+                                    <div class="movie_name">
+                                        <span>2012</span>
+                                        <strong>DJANGO UNCHAINED</strong>
+                                    </div>
+                                    <div class="category_rating">
+                                        <div class="category">
+                                            <a href="#">Drame</a>,<a href="#">Western</a>
+                                        </div>
+                                        <div class="rating">
+                                            8.4 <img src="./asset/IMDb-icon.png" alt="imdb">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+
+            
+        </section>
+        <div class="slider_btns">
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+        <!--================ LATEST ================-->
+        <section id="latest">
+            <div class="latest_heading">
+                <h1>Récents</h1>
+            </div>
+            <div class="post_container">
+                <!-- Post Box 1 -->
+                <div class="post_box">
+                    <div class="post_img">
+                        <img src="./asset/post-1.jpg" alt="poster">
+                    </div>
+                    <div class="main_slider_text">
+                        <span class="quality">Full HD</span>
+                        <div class="bottom_text">
+                            <div class="movie_name">
+                                <span>2012</span>
+                                <a href="./html/deadpool.html">DJANGO UNCHAINED</a>
+                            </div>
+                            <div class="category_rating">
+                                <div class="category">
+                                    <a href="#">Horreur</a>,<a href="#">Mistère</a>,<a href="#">Thriller</a>
+                                </div>
+                                <div class="rating">
+                                    8.4 <img src="./asset/IMDb-icon.png" alt="imdb">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Post Box 2 -->
+                <div class="post_box">
+                    <div class="post_img">
+                        <img src="./asset/post-2.jpg" alt="poster">
+                    </div>
+                    <div class="main_slider_text">
+                        <span class="quality">Full HD</span>
+                        <div class="bottom_text">
+                            <div class="movie_name">
+                                <span>2022</span>
+                                <a href="./html/deadpool.html">THE BATMAN</a>
+                            </div>
+                            <div class="category_rating">
+                                <div class="category">
+                                    <a href="#">Action</a>,<a href="#">Crime</a>,<a href="#">Drame</a>
+                                </div>
+                                <div class="rating">
+                                    8.1 <img src="./asset/IMDb-icon.png" alt="imdb">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Post Box 3 -->
+                <div class="post_box">
+                    <div class="post_img">
+                        <img src="./asset/post-9.jpg" alt="poster">
+                    </div>
+                    <div class="main_slider_text">
+                        <span class="quality">Full HD</span>
+                        <div class="bottom_text">
+                            <div class="movie_name">
+                                <span>2020</span>
+                                <a href="./html/deadpool.html">KIMETSU NO YAIBA: MUGEN RESSHA-HEN</a>
+                            </div>
+                            <div class="category_rating">
+                                <div class="category">
+                                    <a href="#">Animation</a>,<a href="#">Action</a>,<a href="#">Aventure</a>
+                                </div>
+                                <div class="rating">
+                                    8.2 <img src="./asset/IMDb-icon.png" alt="imdb">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Post Box 4 -->
+                <div class="post_box">
+                    <div class="post_img">
+                        <img src="./asset/post-3.jpg" alt="poster">
+                    </div>
+                    <div class="main_slider_text">
+                        <span class="quality">Full HD</span>
+                        <div class="bottom_text">
+                            <div class="movie_name">
+                                <span>2022</span>
+                                <a href="./html/deadpool.html">MOON KNIGHT</a>
+                            </div>
+                            <div class="category_rating">
+                                <div class="category">
+                                    <a href="#">Action</a>,<a href="#">Aventure</a>,<a href="#">Drame</a>
+                                </div>
+                                <div class="rating">
+                                    7.6 <img src="./asset/IMDb-icon.png" alt="imdb">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Post Box 5 -->
+                <div class="post_box">
+                    <div class="post_img">
+                        <img src="./asset/post-8.jpg" alt="poster">
+                    </div>
+                    <div class="main_slider_text">
+                        <span class="quality">Full HD</span>
+                        <div class="bottom_text">
+                            <div class="movie_name">
+                                <span>2021</span>
+                                <a href="./html/deadpool.html">ENCANTO</a>
+                            </div>
+                            <div class="category_rating">
+                                <div class="category">
+                                    <a href="#">Animation</a>,<a href="#">Comédie</a>,<a href="#">Famille</a>
+                                </div>
+                                <div class="rating">
+                                    7.2 <img src="./asset/IMDb-icon.png" alt="imdb">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Post Box 6 -->
+                <div class="post_box">
+                    <div class="post_img">
+                        <img src="./asset/post-6.jpg" alt="">
+                    </div>
+                    <div class="main_slider_text">
+                        <span class="quality">Full HD</span>
+                        <div class="bottom_text">
+                            <div class="movie_name">
+                                <span>2011</span>
+                                <a href="./html/deadpool.html">GAME OF THRONES</a>
+                            </div>
+                            <div class="category_rating">
+                                <div class="category">
+                                    <a href="#">Action</a>,<a href="#">Aventure</a>,<a href="#">Drame</a>
+                                </div>
+                                <div class="rating">
+                                    9.2 <img src="./asset/IMDb-icon.png" alt="imdb">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Post Box 7 -->
+                <div class="post_box">
+                    <div class="post_img">
+                        <img src="./asset/post-12.jpg" alt="">
+                    </div>
+                    <div class="main_slider_text">
+                        <span class="quality">Full HD</span>
+                        <div class="bottom_text">
+                            <div class="movie_name">
+                                <span>2022</span>
+                                <a href="./html/deadpool.html">SPY X FAMILY</a>
+                            </div>
+                            <div class="category_rating">
+                                <div class="category">
+                                    <a href="#">Animation</a>,<a href="#">Action</a>,<a href="#">Comédie</a>
+                                </div>
+                                <div class="rating">
+                                    9.0 <img src="./asset/IMDb-icon.png" alt="imdb">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Post Box 8 -->
+                <div class="post_box">
+                    <div class="post_img">
+                        <img src="./asset/post-5.jpg" alt="">
+                    </div>
+                    <div class="main_slider_text">
+                        <span class="quality">Full HD</span>
+                        <div class="bottom_text">
+                            <div class="movie_name">
+                                <span>2010</span>
+                                <a href="./html/deadpool.html">THE WALKING DEAD</a>
+                            </div>
+                            <div class="category_rating">
+                                <div class="category">
+                                    <a href="#">Drame</a>,<a href="#">Horreur</a>,<a href="#">Thriller</a>
+                                </div>
+                                <div class="rating">
+                                    8.2 <img src="./asset/IMDb-icon.png" alt="imdb">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Post Box 9 -->
+                <div class="post_box">
+                    <div class="post_img">
+                        <img src="./asset/post-11.jpg" alt="poster">
+                    </div>
+                    <div class="main_slider_text">
+                        <span class="quality">Full HD</span>
+                        <div class="bottom_text">
+                            <div class="movie_name">
+                                <span>2021</span>
+                                <a href="./html/deadpool.html">JUJUTSU KAISEN 0</a>
+                            </div>
+                            <div class="category_rating">
+                                <div class="category">
+                                    <a href="#">Animation/a>,<a href="#">Action</a>,<a href="#">Fantastique</a>
+                                </div>
+                                <div class="rating">
+                                    7.9 <img src="./asset/IMDb-icon.png" alt="imdb">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Post Box 10 -->
+                <div class="post_box">
+                    <div class="post_img">
+                        <img src="./asset/post-7.jpg" alt="poster">
+                    </div>
+                    <div class="main_slider_text">
+                        <span class="quality">Full HD</span>
+                        <div class="bottom_text">
+                            <div class="movie_name">
+                                <span>2012</span>
+                                <a href="./html/deadpool.html">ETERNALS</a>
+                            </div>
+                            <div class="category_rating">
+                                <div class="category">
+                                    <a href="#">Action</a>,<a href="#">Aventure</a>,<a href="#">Fantastique</a>
+                                </div>
+                                <div class="rating">
+                                    6.4 <img src="./asset/IMDb-icon.png" alt="imdb">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Post Box 11 -->
+                <div class="post_box">
+                    <div class="post_img">
+                        <img src="./asset/post-4.jpg" alt="poster">
+                    </div>
+                    <div class="main_slider_text">
+                        <span class="quality">Full HD</span>
+                        <div class="bottom_text">
+                            <div class="movie_name">
+                                <span>2016</span>
+                                <a href="./html/deadpool.html">ATLANTA</a>
+                            </div>
+                            <div class="category_rating">
+                                <div class="category">
+                                    <a href="#">Comédie</a>,<a href="#">Drame</a>,<a href="#">Musique</a>
+                                </div>
+                                <div class="rating">
+                                    8.6 <img src="./asset/IMDb-icon.png" alt="imdb">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Post Box 12 -->
+                <div class="post_box">
+                    <div class="post_img">
+                        <img src="./asset/post-10.jpg" alt="">
+                    </div>
+                    <div class="main_slider_text">
+                        <span class="quality">Full HD</span>
+                        <div class="bottom_text">
+                            <div class="movie_name">
+                                <span>2012</span>
+                                <a href="./html/deadpool.html">FATE/GRAND ORDER - THE GRAND TEMPLE OF TIME: SOLOMON</a>
+                            </div>
+                            <div class="category_rating">
+                                <div class="category">
+                                    <a href="#">Animation</a>,<a href="#">Action</a>,<a href="#">Drame</a>
+                                </div>
+                                <div class="rating">
+                                    6.6 <img src="./asset/IMDb-icon.png" alt="imdb">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Page Number -->
+            <div class="page_number">
+                <a href="" class="page_active">1</a>
+                <a href="">2</a>
+                <a href="">3</a>
+                ...
+                <a href="">100</a>
+            </div>
+        </section>
+    </main>
+        <!--================ FOOTER ================-->
+    <footer>
+        <a href="#" class="footer_logo">
+            <img src="./asset/logo.png" class="logo" alt="">
+        </a>
+        <span class="copyright">
+            Copyright 2022 - Live Streaming - All Rights Reserved
+        </span>
+    </footer>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./js/app.js"></script>
+</body>
+</html>
