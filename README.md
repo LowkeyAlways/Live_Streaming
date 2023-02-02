@@ -2,7 +2,7 @@
 ---------------
 ### Ceci est un site Streaming inspiré de sites de streaming quelconque comme on peut en trouver partout sur Internet. Elle contient une page d'accueil et une page de film avec un lecteur vidéo.
 ---------------
-#### [Afficher le site](https://andyl94.github.io/Live_Streaming/)
+#### [Afficher le site](https://lowkeyalways.github.io/Live_Streaming/)
 ---------------
 ## Charte Graphique
 ![Palette](asset/Palette.png)
